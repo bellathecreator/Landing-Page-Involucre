@@ -1,0 +1,167 @@
+#home {
+    display: flex;
+    margin-top: auto;
+    min-height: calc(100vh - 97px);
+    position: relative;
+    padding-top: 120px
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 3%;
+}
+
+#cta .title {
+    font-size: 3rem;
+    color: #1d1d1d;
+}
+
+#cta .title span {
+    color: #0a4e0cad;
+}
+
+#cta .description {
+    font-size: 1.2rem;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#cta_buttons #inf {
+    color: #ffff;
+}
+
+#phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#form {
+    display: flex;
+    align-items: start;
+    width: 70%;
+    padding-left: 200px;
+}
+
+#form .login-box {
+    height: 100%;
+    width: fit-content;
+    z-index: 2;
+}
+
+.form-box {
+    background-color: #f4ffea;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    right: 400px;
+    margin: auto;
+    color: #1d1d1d;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.1); /* fundo da div com leve transparência */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  .form-box input,
+  .form-box select {
+    width: 100%;
+    padding: 12px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    color: #1d1d1d;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-box input::placeholder {
+    color: #1d1d1d;
+  }
+  
+  .form-box select {
+    color: #1d1d1d;
+  }
+  
+  .form-box select option {
+    color: black;
+  }
+  
+  .form-box input:focus,
+  .form-box select:focus {
+    outline: none;
+    border-bottom: 1px solid #1d1d1d;
+  }
+
+  .checkbox-line {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1d1d1d;
+  }
+  
+  .checkbox-line input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin: 0;
+  }
+  
+  .checkbox-line label {
+    line-height: 1.4;
+    color: #1d1d1d;
+    cursor: pointer;
+  }
+  
+  .checkbox-line a {
+    color: #00752b;
+    text-decoration: underline;
+  }
+  
+  .obrigatorio {
+    font-size: 0.8rem;
+    color: #1d1d1d;
+    margin-top: 10px;
+  }
+  
+  .form-box button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #0a4e0cad;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form-box button:hover {
+    background-color: #117e15ad;
+  }
+  

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/recursos.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i id="nav_logo" class="fa-solid fa-seedling"> Involucre</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recursos">Recursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">FAQ</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Começar com Involucre
+            </button>
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            </div>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recursos">Recursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#FAQ">FAQ</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Começar com Involucre
+            </button>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    Menos descarte, <span>mais resultado.</span>
+                </h1>
+
+                <p class="descripition">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, porro maxime, velit voluptatum nisi eos et in, adipisci deserunt possimus tempore minima optio dolorum hic dignissimos praesentium. Nemo, provident alias.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default" id="inf">
+                        Ver recursos
+                    </a>
+
+                    <a href="tel:+5555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 91234-4243
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+    
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+    
+                    <a href="">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="form">
+                <div class="form-box">
+                    <form>
+                      <input type="text" id="nome" placeholder="Nome*" required>
+                  
+                      <input type="email" id="email" placeholder="E-mail*" required>
+                  
+                      <input type="tel" id="whatsapp" placeholder="Número de WhatsApp (com DDD)*" required>
+                  
+                      <input type="text" id="cnpj" placeholder="CNPJ*" required>
+                  
+                      <select id="faturamento" required>
+                        <option value="" disabled selected>Faturamento*</option>
+                        <option>Até R$100 mil</option>
+                        <option>R$100 mil a R$500 mil</option>
+                        <option>Acima de R$500 mil</option>
+                      </select>
+                  
+                      <div class="checkbox-line">
+                        <input type="checkbox" id="termos" required>
+                        <label for="termos">
+                          <strong>Concordo com os <a href="#">termos de uso</a></strong>*
+                        </label>
+                      </div>
+                  
+                      <p class="obrigatorio">(*) Campo obrigatório</p>
+                  
+                      <button type="submit">Enviar</button>
+                    </form>
+                  </div>
+            </div>
+        </section>
+
+        <section id="recursos">
+            <h2 class="section-title">Soluções inteligentes para sua indústria evoluir</h2>
+            <h3 class="section-subtitle">A Involucre oferece módulos conectados para transformar a gestão de embalagens de ponta a ponta.
+
+            </h3>
+
+            <div id="rec">
+
+                <div class="bloco">
+                    <h3 class="bloco-title">
+                        Monitoramento por Turno
+                    </h3>
+                    <span class="bloco-description">
+                        Acompanhe o uso e o descarte de embalagens em cada turno de produção e identifique padrões de desperdício.
+                    </span>
+                </div>
+                <div class="bloco">
+                    <h3 class="bloco-title">
+                        Controle de Estoque
+                    </h3>
+                    <span class="bloco-description">
+                        Saiba exatamente quanto há disponível, o que foi usado corretamente e o que foi descartado.
+                    </span>
+                </div>
+                <div class="bloco">
+                    <h3 class="bloco-title">
+                        Motivos de Descarte
+                    </h3>
+                    <span class="bloco-description">
+                        Registre os motivos para cada embalagem descartada e tome decisões corretivas com base em dados reais.
+                    </span>
+                </div>
+                <div class="bloco">
+                    <h3 class="bloco-title">
+                        Dashboard Gerencial
+                    </h3>
+                    <span class="bloco-description">
+                        Visualize KPIs como taxa de desperdício, custo por setor e volume utilizado com painéis fáceis e exportáveis.
+                    </span>
+                </div>
+                <div class="bloco">
+                    <h3 class="bloco-title">
+                        Alertas Inteligentes
+                    </h3>
+                    <span class="bloco-description">
+                        Receba avisos automáticos quando o descarte ultrapassar o limite aceitável por turno ou setor.
+                    </span>
+                </div>
+                <div class="bloco">
+                    <h3 class="bloco-title">
+                        Conformidade Sustentável
+                    </h3>
+                    <span class="bloco-description">
+                        Garanta que sua empresa atenda às exigências legais da PNRS com relatórios e registros completos.
+                    </span>
+                </div>
+        </section>
+
+        <section id="testimonials">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    FAQ
+                </h2>
+                <h3 class="section-subtitle">
+                    Perguntas frequentes
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Jojo toddynho
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/img/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Involucre
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="src/javascript/script.js"></script>
+</html>
